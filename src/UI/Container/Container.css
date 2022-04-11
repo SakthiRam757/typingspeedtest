@@ -1,0 +1,17 @@
+.Container{
+border-radius: 10px;
+box-shadow: 0 3px 4px #02050a;
+width: min(80vw,1000px);
+padding: 10px;
+overflow: auto;
+font-size: 20px;
+color:whitesmoke;
+margin: auto;
+background-color:rgb(240,240,240,0.2);
+z-index: 50;
+margin-top: 20px;
+transition: 0.15s;
+}
+.Container:hover{
+    transform: scale(1.1);
+}
